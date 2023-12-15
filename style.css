@@ -1,0 +1,44 @@
+/* *{
+    color: #fff;
+
+} */
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Adjust the z-index to ensure it's above other content */
+  }
+  .list:hover{
+    background-color: white;
+    color:black !important;
+
+  }
+  .list{
+    border-radius: 5px;
+    color: #fff !important;
+  }
+  .nav-link:hover{
+    color: black;
+  }
+  .first{
+    font-family: Georgia, serif;
+  }
+  
+  @media(max-width:767px){
+    .hidden{
+      display: none;
+    }
+  }
+  .navbar-toggler-icon{
+    color: aliceblue;
+  }
+  .explore:hover{
+    font-size: large;
+    
+        
+
+  }
+  .foot:hover{
+   font-size: large;
+    
+  }
